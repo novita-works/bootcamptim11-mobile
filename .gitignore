@@ -1,0 +1,7 @@
+# Ignore results folder
+results/
+
+# Ignore log, report, and output files
+*.log
+*.html
+*.xml
