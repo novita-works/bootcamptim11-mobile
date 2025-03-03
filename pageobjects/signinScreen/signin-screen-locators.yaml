@@ -1,0 +1,5 @@
+LOC_SIGNIN_HOMESCREEN:               //android.widget.Button[@resource-id="com.example.myapplication:id/login"]
+LOC_SIGNIN_SCREEN:                   //android.widget.Button[@resource-id="com.example.myapplication:id/signIn"]
+LOC_USERNAME:                        //android.widget.EditText[@resource-id="com.example.myapplication:id/username"]
+LOC_PASSWORD:                        //android.widget.EditText[@resource-id="com.example.myapplication:id/password"]
+LOC_DASHBOARD:                       //android.widget.TextView[@resource-id="com.example.myapplication:id/textView"]

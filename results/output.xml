@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2.2 (Python 3.9.6 on darwin)" generated="2025-03-03T14:21:50.191221" rpa="false" schemaversion="5">
+<suite id="s1" name="Bootcamptim11-Mobile" source="/Users/novita/Documents/Automation Test/Appium/bootcamptim11-mobile">
+<suite id="s1-s1" name="Suites" source="/Users/novita/Documents/Automation Test/Appium/bootcamptim11-mobile/suites">
+<suite id="s1-s1-s1" name="signIn" source="/Users/novita/Documents/Automation Test/Appium/bootcamptim11-mobile/suites/signIn.robot">
+<test id="s1-s1-s1-t1" name="User Should Not Be Able to Sign In with Invalid Format of Password" line="83">
+<kw name="Open Flight Application" owner="base">
+<kw name="Open Application" owner="AppiumLibrary">
+<arg>remote_url=${REMOTE_URL}</arg>
+<arg>platformName=${PLATFORM_NAME}</arg>
+<arg>platformVersion=${PLATFORM_VERSION}</arg>
+<arg>deviceName=${DEVICE_NAME}</arg>
+<arg>appPackage=${APP_PACKAGE}</arg>
+<arg>appActivity=${APP_ACTIVITY}</arg>
+<arg>automationName=${AUTOMATION_NAME}</arg>
+<doc>Opens a new application to given Appium server.
+Capabilities of appium server, Android and iOS,
+Please check https://appium.io/docs/en/2.1/cli/args/
+| *Option*            | *Man.* | *Description*     |
+| remote_url          | Yes    | Appium server url |
+| alias               | no     | alias             |
+| strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |</doc>
+<status status="PASS" start="2025-03-03T14:21:50.316768" elapsed="3.469599"/>
+</kw>
+<status status="PASS" start="2025-03-03T14:21:50.315328" elapsed="3.471422"/>
+</kw>
+<kw name="Verify Home Screen Appears" owner="homeScreen">
+<kw name="Wait Until Element Is Visible" owner="AppiumLibrary">
+<msg time="2025-03-03T14:21:54.561799" level="INFO">xpath criteria: //android.widget.TextView[@resource-id="com.example.myapplication:id/textView4"]</msg>
+<arg>locator=${LOC_HOMESCREEN}</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" start="2025-03-03T14:21:53.788715" elapsed="0.773363"/>
+</kw>
+<status status="PASS" start="2025-03-03T14:21:53.787117" elapsed="0.775128"/>
+</kw>
+<kw name="Click Sign In Button on Home Screen" owner="signinScreen">
+<kw name="Click Element" owner="AppiumLibrary">
+<msg time="2025-03-03T14:21:54.565354" level="INFO">Clicking element '//android.widget.Button[@resource-id="com.example.myapplication:id/login"]'.</msg>
+<msg time="2025-03-03T14:21:54.669646" level="INFO">xpath criteria: //android.widget.Button[@resource-id="com.example.myapplication:id/login"]</msg>
+<arg>locator=${LOC_SIGNIN_HOMESCREEN}</arg>
+<doc>Click element identified by `locator`.</doc>
+<status status="PASS" start="2025-03-03T14:21:54.563520" elapsed="0.106307"/>
+</kw>
+<status status="PASS" start="2025-03-03T14:21:54.562721" elapsed="0.107289"/>
+</kw>
+<kw name="Verify Sign In Screen Appears" owner="signinScreen">
+<kw name="Wait Until Element Is Visible" owner="AppiumLibrary">
+<msg time="2025-03-03T14:21:55.335141" level="INFO">xpath criteria: //android.widget.EditText[@resource-id="com.example.myapplication:id/username"]
+xpath criteria: //android.widget.EditText[@resource-id="com.example.myapplication:id/username"]</msg>
+<arg>locator=${LOC_USERNAME}</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" start="2025-03-03T14:21:54.671128" elapsed="0.664202"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="AppiumLibrary">
+<msg time="2025-03-03T14:21:55.382495" level="INFO">xpath criteria: //android.widget.EditText[@resource-id="com.example.myapplication:id/password"]</msg>
+<arg>locator=${LOC_PASSWORD}</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" start="2025-03-03T14:21:55.335533" elapsed="0.047128"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="AppiumLibrary">
+<msg time="2025-03-03T14:21:55.432203" level="INFO">xpath criteria: //android.widget.Button[@resource-id="com.example.myapplication:id/signIn"]</msg>
+<arg>locator=${LOC_SIGNIN_SCREEN}</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" start="2025-03-03T14:21:55.382873" elapsed="0.049496"/>
+</kw>
+<status status="PASS" start="2025-03-03T14:21:54.670537" elapsed="0.761967"/>
+</kw>
+<kw name="Input Valid Username" owner="signinScreen">
+<kw name="Input Text" owner="AppiumLibrary">
+<msg time="2025-03-03T14:21:55.435584" level="INFO">Typing text 'support@ngendigital.com' into text field '//android.widget.EditText[@resource-id="com.example.myapplication:id/username"]'</msg>
+<msg time="2025-03-03T14:21:55.510054" level="INFO">xpath criteria: //android.widget.EditText[@resource-id="com.example.myapplication:id/username"]</msg>
+<arg>locator=${LOC_USERNAME}</arg>
+<arg>text=${VALID_USERNAME}</arg>
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<status status="PASS" start="2025-03-03T14:21:55.434101" elapsed="0.076176"/>
+</kw>
+<status status="PASS" start="2025-03-03T14:21:55.432904" elapsed="0.077758"/>
+</kw>
+<kw name="Input Invalid Format of Password">
+<kw name="Input Password" owner="AppiumLibrary">
+<msg time="2025-03-03T14:21:55.514591" level="INFO">Typing password into text field '//android.widget.EditText[@resource-id="com.example.myapplication:id/password"]'</msg>
+<msg time="2025-03-03T14:21:56.033019" level="INFO">xpath criteria: //android.widget.EditText[@resource-id="com.example.myapplication:id/password"]</msg>
+<arg>locator=${LOC_PASSWORD}</arg>
+<arg>text=${INV_FORMAT_PASSWORD}</arg>
+<doc>Types the given password into text field identified by `locator`.</doc>
+<status status="PASS" start="2025-03-03T14:21:55.512309" elapsed="0.520908"/>
+</kw>
+<status status="PASS" start="2025-03-03T14:21:55.511668" elapsed="0.521713"/>
+</kw>
+<kw name="Click Sign In Button on Sign In Screen" owner="signinScreen">
+<kw name="Click Element" owner="AppiumLibrary">
+<msg time="2025-03-03T14:21:56.035577" level="INFO">Clicking element '//android.widget.Button[@resource-id="com.example.myapplication:id/signIn"]'.</msg>
+<msg time="2025-03-03T14:21:56.576308" level="INFO">xpath criteria: //android.widget.Button[@resource-id="com.example.myapplication:id/signIn"]</msg>
+<arg>locator=${LOC_SIGNIN_SCREEN}</arg>
+<doc>Click element identified by `locator`.</doc>
+<status status="PASS" start="2025-03-03T14:21:56.033906" elapsed="0.542944"/>
+</kw>
+<status status="PASS" start="2025-03-03T14:21:56.033582" elapsed="0.543799"/>
+</kw>
+<kw name="Verify User Failed Sign In With Invalid Credentials">
+<kw name="Wait Until Page Contains Element" owner="AppiumLibrary">
+<msg time="2025-03-03T14:21:56.627764" level="INFO">xpath criteria: //android.widget.Toast[@text="Invalid username/password"]</msg>
+<arg>locator=${LOG_INVALID_CREDENTIALS}</arg>
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<status status="PASS" start="2025-03-03T14:21:56.579332" elapsed="0.048672"/>
+</kw>
+<kw name="Wait Until Page Contains" owner="AppiumLibrary">
+<arg>text=${ERROR_EXPECTED}</arg>
+<doc>Waits until `text` appears on current page.</doc>
+<status status="PASS" start="2025-03-03T14:21:56.628247" elapsed="0.471144"/>
+</kw>
+<status status="PASS" start="2025-03-03T14:21:56.578164" elapsed="0.521641"/>
+</kw>
+<kw name="Close Flight Application" owner="base">
+<kw name="Close Application" owner="AppiumLibrary">
+<doc>Closes the current application and also close webdriver session.</doc>
+<status status="PASS" start="2025-03-03T14:21:57.101000" elapsed="0.187720"/>
+</kw>
+<status status="PASS" start="2025-03-03T14:21:57.100248" elapsed="0.188660"/>
+</kw>
+<status status="PASS" start="2025-03-03T14:21:50.313904" elapsed="6.975192"/>
+</test>
+<status status="PASS" start="2025-03-03T14:21:50.214325" elapsed="7.075302"/>
+</suite>
+<status status="PASS" start="2025-03-03T14:21:50.211472" elapsed="7.079111"/>
+</suite>
+<status status="PASS" start="2025-03-03T14:21:50.194166" elapsed="7.096912"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Bootcamptim11-Mobile" id="s1" pass="1" fail="0" skip="0">Bootcamptim11-Mobile</stat>
+<stat name="Suites" id="s1-s1" pass="1" fail="0" skip="0">Bootcamptim11-Mobile.Suites</stat>
+<stat name="signIn" id="s1-s1-s1" pass="1" fail="0" skip="0">Bootcamptim11-Mobile.Suites.signIn</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
