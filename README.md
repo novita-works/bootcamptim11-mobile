@@ -7,7 +7,7 @@ Project Bootcamp SanberCode 64 - Tim 11
 | ------------------------ | ---------------------------------------------- |-----------------------------|
 | Refo Fattahillah Ramadhan | [refofattahillah](https://github.com/refofattahillah)          | |
 | Yota Pratama             | [yotaprt](https://github.com/yotaprt) | |
-| Novita                  | [novita-works](https://github.com/novita-works)           | https://drive.google.com/file/d/16sGqKanYLdOIXlXm7gXevewZGReb9nrL/view?usp=sharing |
+| Novita                  | [novita-works](https://github.com/novita-works)           | https://drive.google.com/file/d/1IE7XxBgduuleVwPuSfrOPCb98l1Rz66l/view?usp=sharing |
 | Muhammad Ihsan Syarifudin| [MuhammadIhsan45](https://github.com/MuhammadIhsan45)        | |
 
 ## Pembagian Tugas
