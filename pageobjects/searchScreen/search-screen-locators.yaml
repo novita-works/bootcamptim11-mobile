@@ -1,0 +1,8 @@
+LOC_SEARCH_BUTTON:              //android.widget.Button[@resource-id="com.example.myapplication:id/searchFlight"]
+LOC_FIRST_BUTTON:               //android.widget.Button[@resource-id="com.example.myapplication:id/search_flight"]
+LOC_INPUT:              //android.widget.EditText[@resource-id="com.example.myapplication:id/flight_number"]
+LOC_ERROR_EMPTY:                //android.widget.FrameLayout[@resource-id="android:id/content"]/android.view.ViewGroup/android.view.ViewGroup[1]
+LOC_ERROR_NONALPHA:             //android.widget.FrameLayout[@resource-id="android:id/content"]/android.view.ViewGroup/android.view.ViewGroup[1]
+LOC_ERROR_SPACE:                //android.widget.FrameLayout[@resource-id="android:id/content"]/android.view.ViewGroup/android.view.ViewGroup[1]
+LOC_ERROR_LOWERCASE:            //android.widget.FrameLayout[@resource-id="android:id/content"]/android.view.ViewGroup/android.view.ViewGroup[1]
+LOC_ERROR_INVALID:              //android.widget.FrameLayout[@resource-id="android:id/content"]/android.view.ViewGroup/android.view.ViewGroup[1]
