@@ -13,3 +13,12 @@ Project Bootcamp SanberCode 64 - Tim 11
 ## Pembagian Tugas
 
 Berikut adalah pembagian tugas untuk pengembangan proyek ini:
+*   **Refo Fattahillah Ramadhan:**
+    *   **Sign Out:** Bertanggung Jawab atas implementasi dan validasi fitur untuk keluar dari sistem.
+*   **Yota Pratama:**
+    *   **Book Flight:** Bertanggung jawab atas implementasi dan validasi fitur book flight.
+*   **Novita:**
+    * **Sign In:** Bertanggung Jawab atas implementasi dan validasi fitur untuk masuk ke dalam sistem.
+*   **Muhammad Ihsan Syarifudin:**
+    *   **Search:** Bertanggung jawab atas implementasi dan validasi fitur search pada sistem.
+ 
