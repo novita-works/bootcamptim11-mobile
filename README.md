@@ -5,7 +5,7 @@ Project Bootcamp SanberCode 64 - Tim 11
 
 | Nama                     | GitHub Username                                  | Link Record Test           |
 | ------------------------ | ---------------------------------------------- |-----------------------------|
-| Refo Fattahillah Ramadhan | [refofattahillah](https://github.com/refofattahillah)          | |
+| Refo Fattahillah Ramadhan | [refofattahillah](https://github.com/refofattahillah)          | https://drive.google.com/file/d/1JnWp2uG64ptXsY0PmPTDAkEgL8TakfVl/view?usp=sharing |
 | Yota Pratama             | [yotaprt](https://github.com/yotaprt) | |
 | Novita                  | [novita-works](https://github.com/novita-works)           | https://drive.google.com/file/d/1IE7XxBgduuleVwPuSfrOPCb98l1Rz66l/view?usp=sharing |
 | Muhammad Ihsan Syarifudin| [MuhammadIhsan45](https://github.com/MuhammadIhsan45)        | https://drive.google.com/file/d/1i921wY7HBN2aCPZ6CVafJ8ZAzPncDXJw/view?usp=sharing |   
