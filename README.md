@@ -14,7 +14,7 @@ Project Bootcamp SanberCode 64 - Tim 11
 
 Berikut adalah pembagian tugas untuk pengembangan proyek ini:
 *   **Refo Fattahillah Ramadhan:**
-    *   Karena fitur Sign Out tidak bisa dicek, menambahkan test case berbeda di fitur Sign In & Search (Book Flight on Progress).
+    *   Karena fitur Sign Out tidak bisa dicek, menambahkan test case berbeda di fitur Sign In, Search & Book Flight.
 *   **Yota Pratama:**
     *   **Book Flight:** Bertanggung jawab atas implementasi dan validasi fitur book flight.
 *   **Novita:**
